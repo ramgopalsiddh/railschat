@@ -23,4 +23,5 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ### setup Sementic-ui
+- [I folow this article for setup Sementic-ui](https://medium.com/@justicea83/adding-jquery-and-semantic-ui-to-a-rails-7-project-2a7469d4c95c)
