@@ -10,4 +10,9 @@ import "semantic-ui"
 $(document).on('turbo:load', function() {
     console.log('loaded turbo links')
     $('.ui.dropdown').dropdown()
+    // js for close error/success message 
+    $('.message .close').on('click', function() {
+    $(this).closest('.message').transition('fade');
+  });
 });
+
