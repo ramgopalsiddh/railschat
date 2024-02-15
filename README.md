@@ -13,7 +13,7 @@
 
 #### For more info OR suggestion contact me on
 
-- ### My Twitter :- <a href="https://twitter.com/ramgopalsiddh1/" target="_blank"> https://Twitter/ramgopal </a>
+- ### My Twitter :- <a href="https://twitter.com/ramgopalsiddh1/" target="_blank"> Twitter/ramgopal </a>
 
 - ### Portfolio :- <a href="https://ramgopal.dev/" target="_blank">ramgopal.dev</a>
 ---
