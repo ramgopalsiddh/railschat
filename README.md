@@ -1,7 +1,24 @@
+# RailsChat 
+
+- Real time message app useing Action Cable & Web Sockets
+- This app can add multiple user and they can send message in chatroom
+- Update message in all user's chatroom real time without refresh page
+- Use Sementic-UI for User Interface(frontend)
+
+---
+
+#### This Project is part of [Udemy Course "The Complete Ruby on Rails Developer Course" ](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/)
+
+---
+
+#### For more info OR suggestion contact me on
+
+- ### My Twitter :- <a href="https://twitter.com/ramgopalsiddh1/" target="_blank"> https://Twitter/ramgopal </a>
+
+- ### Portfolio :- <a href="https://ramgopal.dev/" target="_blank">ramgopal.dev</a>
+---
 
 ## Screenshots
-
-### Rails Chat
 
 #### Home
   <img src="screenshot/railschat_1.png">
