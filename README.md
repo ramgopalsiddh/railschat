@@ -1,3 +1,20 @@
+
+## Screenshots
+
+### Rails Chat
+
+#### Home
+  <img src="screenshot/railschat_1.png">
+
+#### Login with wrong credentials
+  <img src="screenshot/railschat_2.png">
+
+#### Successfully login with correct credentials
+  <img src="screenshot/railschat_3.png">
+
+#### Logout from Rails chat
+  <img src="screenshot/railschat_4.png">
+
 # README
 
 This README would normally document whatever steps are necessary to get the
