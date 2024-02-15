@@ -10,10 +10,19 @@ import "semantic-ui"
 $(document).on('turbo:load', function() {
     console.log('loaded turbo links')
     $('.ui.dropdown').dropdown()
+    
     // js for close error/success message 
     $('.message .close').on('click', function() {
     $(this).closest('.message').transition('fade');
   });
 });
+
+// add auto scroll to bottom in messages
+$(document).on('turbo:load', function() {
+  if ($('#messages').length > 0) {
+  $('#messages').scrollTop($('#messages')[0].scrollHeight);
+  }
+})
+
 
 import "channels"
