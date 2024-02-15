@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
     user = User.find_by(username: params[:session][:username])
     if user && user.authenticate(params[:session][:password])
       session[:user_id] = user.id
-      flash[:success] = "You have successfully logged in"
+      flash[:success] = "Welcome, #{user.username}! You have successfully logged in "
       redirect_to root_path
     else
       flash.now[:error] = "There was something wrong with your login information"
@@ -26,7 +26,7 @@ class SessionsController < ApplicationController
 
   def logged_in_redirect
     if logged_in?
-      flash[:error] = "You are already logged in"
+      flash[:error] = "#{current_user.username}!, You are already logged in"
       redirect_to root_path
     end
   end
