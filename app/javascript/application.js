@@ -20,9 +20,11 @@ $(document).on('turbo:load', function() {
 // add auto scroll to bottom in messages
 $(document).on('turbo:load', function() {
   if ($('#messages').length > 0) {
-  $('#messages').scrollTop($('#messages')[0].scrollHeight);
+    $('#messages').scrollTop($('#messages')[0].scrollHeight);
   }
 })
 
+// Clear message box after enter message 
+if (e.key == "Enter");
 
 import "channels"
